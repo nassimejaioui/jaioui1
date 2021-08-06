@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        header{
+            height: 90px;
+            width: 100%;
+            background-color: rgb(74 176 181 / 77%);
+        }
+        .logo img{
+            width: 120px;
+            height: 90px;
+            float: right;
+            line-height: 80px;
+            margin-top:2px ;
+            margin-right: 40px;
+        }
+        nav{
+            width: 100%;
+        }
+        nav a{
+            text-decoration: none;
+            color: white;
+            padding-left: 20px;
+                display: inline-block;
+            
+        }
+        nav li{
+            display: inline-block;
+            line-height: 90px;
+            width: 100px;
+            
+            font-size: 20px;
+        }
+        nav a:hover{
+            background-color: rgb(58, 171, 189);
+            height: 100%;
+            width: 100%;
+        }
+     main{
+         width: 100%;
+         height: 450px;
+         background-image: url(foto/fod.jpg);
+         background-size: cover;
+         border-top:2px solid white ;
+     }
+     aside{
+         width: 30%;
+         height: 100%;
+         background-color: rgb(255, 255, 255);
+         float: left;
+     }
+     aside img{
+         width: 90%;
+         border-bottom:2px solid black ;
+     }
+     .article1{
+         width: 70%;
+         height: 450px;
+         float: right;
+         position: relative;
+     }
+     .div1{
+width: 450px;
+height: 180px;
+position: absolute;
+background-color: rgb(255, 255, 255);
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+     }
+     p{
+         font-size: 30px;
+         color: red;
+         border-bottom:solid 2px red ;
+         padding-bottom:10px ;
+         text-align: center;
+         padding-top: 7px;
+
+     }
+     h1{
+         padding-top: 25px;
+text-align: center;
+font-size: 22px;
+     }
+.div2{
+    width: 1000px;
+    margin: 50px;
+    padding-top: 10px;
+    border: 10px black double;
+    text-align: center;
+    margin-left:140px ;
+    padding: 30px;
+font-style: italic;
+}
+.chef{
+    width: 150px;
+  
+}
+
+
+
+#nassim{
+    width: 100%;
+    display: flex;
+justify-content: center;
+margin-top: 40px;
+
+}
+#nassim img{
+    width: 55px;
+    border-bottom: 4px double rgb(0, 0, 0);
+    padding-bottom: 25px;
+    padding-left :6px ; 
+    padding-right: 6px;
+}
+
+#nassim img:hover{
+width: 66px;
+border-bottom: 2px double black;
+
+}
+
+@media only screen and (max-width:700px){
+ 
+    .div1{
+        width: 400px;
+    }
+}
+@media only screen and (max-width:1239px) {
+    .div2{
+        width: 800px;
+    }
+}
+@media only screen and (max-width:1030px) {
+
+.div2{
+    width: 700px;
+}
+}
+@media only screen and (max-width:1030px) {
+.div2{
+    width: 500px;
+}
+}
+@media only screen and (max-width:727px) {
+.div2{
+    width: 300px; ;
+}
+}
+@media only screen and (max-width:659px) {
+.div1{
+    width: 250px;
+    height: 240px;
+}
+}
+@media only screen and (max-width:725px) {
+#nassim img{
+    width: 50px;
+}
+}
+@media only screen and (max-width:659px) {
+    #nassim img{
+    width: 40px;
+}
+}
+@media only screen and (max-width:556px) {
+
+#nassim img{
+    width: 35px;
+}
+}
+@media only screen and (max-width:524px) {
+
+    .div2{
+    width: 250px; ;
+}
+}
+    </style>
+</head>
+<body>
+
+    <header>
+<a href="file:///C:/Users/Fannan/Desktop/tthme/test.html">
+    <div class="logo">
+        <img src="foto/logo.png" alt="">
+    </div>
+</a>
+  <nav>    
+<ul>
+    <li>
+        <a href="file:///C:/Users/Fannan/Desktop/ataib/index.html">home</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyoxjc9Prw0uhwgp6YZ2-_sg" target="_black">contact</a>
+    </li>
+    <li>
+        <a href="https://www.youtube.com/playlist?list=PLMTdZ61eBnyrnapIyOphXAkIcR5DDOGkz" target="_blank" >about</a>
+    </li>
+</ul>
+</nav>  
+    </header>
+
+<main>
+<aside>
+<img src="foto/waw.png" alt="">
+
+<div id="nassim">
+    <a href="https://ar-ar.facebook.com/withoutborder/" target="_blank"><img src="foto/fb.png" alt=""></a>
+    <a href="https://www.instagram.com/"  target="_blank"><img src="foto/in.png" alt=""></a>
+    <a href="https://snap.com/fr-FR"  target="_blank"><img src="foto/tw.png" alt=""></a>
+
+</div>
+
+</aside>
+
+<article class="article1">
+<div class="div1">
+    <p> مطعم كودر شيار</p>
+<h1>يقدم مطعم كودر شيار أطايب تجربة فريدة وخبرة واسعة في تناول الأطعمة الفلسطينية و الأردنية وفقا لمعاييرحديثة بطعم عريق</h1>
+</div>
+</article>
+</main>
+<footer>
+    <div class="div2">
+        <img src="foto/chef.png" alt="" class="chef">
+        <h1>شيف كودر شيار</h1>
+<h1>يقدم مطعم كودر شيار أطايب تجربة فريدة وخبرة واسعة في تناول الأطعمة الفلسطينية و الأردنية وفقا لمعاييرحديثة بطعم عريق،و ذلك من خلال دمجه بين الحاضر والماضي عبر جلساته وديكوراته إضافة إلى ملابس طاقم العمل ومقدمي الخدمة. كما يقدم أطايب أفضل معايير الراحة والاسترخاء بجلساته الهادئة والمشويات اللذيذة، إضافة الى كافة انواع المشروبات. أما عن أسعار قائمة طعام أطايب، متوسطه ومدروسة بعناية  نرحب بكم في اي وقت و اي ساعة
+     
+    </h1>
+
+    </div>
+
+</footer>
+
+</body>
+</html>
